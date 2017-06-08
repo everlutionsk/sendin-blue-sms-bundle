@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
 /**
  * @author Martin Adamik <martin.adamik@everlution.sk>
  */
-class SendinBlueSmsExtension extends Extension
+class EverlutionSendinBlueSmsExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {

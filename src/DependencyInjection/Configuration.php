@@ -15,7 +15,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('sendin_blue_sms');
+        $rootNode = $treeBuilder->root('everlution_sendin_blue_sms');
 
         $rootNode
             ->children()
