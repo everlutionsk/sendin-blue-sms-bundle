@@ -1,0 +1,22 @@
+{
+    "name": "everlutionsk/sendin-blue-sms-bundle",
+    "description": "Everlution SendinBlue SMS Bundle for Symfony framework",
+    "keywords": ["email", "symfony", "everlution", "bundle", "sendinblue", "sms"],
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "Everlution\\SendinBlueSmsBundle\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "symfony/http-kernel": "^3.2",
+        "symfony/config": "^3.2",
+        "symfony/dependency-injection": "^3.2",
+        "mailin-api/mailin-api-php": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {"name": "Martin Adamik", "email": "martin.adamik@everlution.sk"}
+    ]
+}

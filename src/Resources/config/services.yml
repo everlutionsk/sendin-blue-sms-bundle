@@ -1,0 +1,12 @@
+services:
+  everlution.sendin_blue_sms.sms_system:
+    class: Everlution\SendinBlueSmsBundle\Outbound\SmsSystem\SmsSystem
+    arguments:
+      - '%everlution.sendin_blue_sms.base_url%'
+      - '%everlution.sendin_blue_sms.api_key%'
+      - '%everlution.sendin_blue_sms.timeout%'
+      - '@everlution.sendin_blue_sms.outbound.sms_converter'
+
+  everlution.sendin_blue_sms.outbound.sms_converter:
+    class: Everlution\SendinBlueSmsBundle\Outbound\SmsSystem\SmsConverter
+    public: false
